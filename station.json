@@ -1,19 +1,18 @@
 {
  "format": "myradio/station-1",
- "name": "ものラジオ",
- "description": "電子工作・3Dプリンター・AI の、きのうの気になるニュースを、毎朝 90 秒で。",
- "tagline": "AI・3D 朝のニュース",
- "logo": "logo.svg",
- "url": "https://monoradio102.github.io/myradio/",
- "repo": "https://github.com/monoradio102/myradio",
+ "name": "自分ラジオ",
+ "description": "自分のための、毎日のニュース。",
+ "tagline": "自分向けの毎日のニュース",
+ "logo": null,
+ "url": "",
+ "repo": "https://github.com/MasanoriYamada/myradio",
  "language": "ja",
  "languages": [
-  "ja",
-  "en"
+  "ja"
  ],
  "schedule": {
   "every": "day",
-  "time": "06:10",
+  "time": "07:00",
   "timezone": "Asia/Tokyo"
  },
  "episodes": "episodes.json",
@@ -23,31 +22,12 @@
   "note": "AIで生成したキャラクターです"
  },
  "credits": [
-  "声：COEIROINK:リリンちゃん"
+  "声：涼宮ハルヒ（Irodori-TTS で合成）"
  ],
- "caster": "声：COEIROINK:リリンちゃん",
+ "caster": "声：涼宮ハルヒ",
  "audio": {
   "dir": "audio",
   "keep_days": 30
  },
- "weather": true,
- "comments": {
-  "giscus": {
-   "repo": "monoradio102/myradio",
-   "repoId": "R_kgDOVjfh2A",
-   "category": "Comments",
-   "categoryId": "DIC_kwDOVjfh2M4DKdQF"
-  }
- },
- "i18n": {
-  "en": {
-   "name": "Mono Radio",
-   "tagline": "Morning news on AI and 3D",
-   "description": "The news worth knowing in electronics, 3D printing and AI, every morning in 90 seconds.",
-   "credits": [
-    "Voice: Kokoro (af_heart)"
-   ],
-   "caster": "Voice: Kokoro (af_heart)"
-  }
- }
+ "weather": true
 }
