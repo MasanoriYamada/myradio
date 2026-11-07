@@ -40,7 +40,7 @@
 5. **声を吹き込む**：台本から音声を作って `audio/<日付>-<言語>.mp3` に置く
 6. **電波を出す**：`tools/publish.sh` を実行すると、GitHub Pages で放送が始まります。リポジトリの設定で、Pages の公開元を `gh-pages` ブランチにしておく
 7. **看板を掛け替える**：この README を自分の局の紹介に書き換える。冒頭の画像（`docs/screen.jpg`）と ON AIR バッジは、ものラジオのものなので、自分の局の画面とリンクにする
-8. **見つけてもらう**：リポジトリに topic `myradio-station` を付けると、ほかの人から探しやすくなります
+8. **見つけてもらう**：リポジトリの About の歯車 → Topics で `myradio-station` を付けると、[ほかの局の一覧](https://github.com/topics/myradio-station)に並びます（Use this template では topic は引き継がれません）
 
 音声は main ブランチにはコミットしません。`tools/publish.sh` が、放送用の `gh-pages` ブランチを「main の中身＋直近 30 日の音声」で毎回作り直して push します。だから、毎日放送してもリポジトリが音声で重くならず、古い音声は自然に消えます（台本は残ります）。
 
